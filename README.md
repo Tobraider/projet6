@@ -1,0 +1,1 @@
+Vous trouverez dans ce git le dossier permettant d'afficher une page web de tel sorte a parcourir et obtenir plus d'info sur les films present sur l'API suivant : https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
