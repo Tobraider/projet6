@@ -1,0 +1,241 @@
+.menu {
+  margin: auto;
+  width: 600px;
+  height: 100px;
+  background: #676f86;
+  margin-bottom: 50px;
+  display: flex;
+}
+.nom {
+  color:white;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25px;
+  font-size: 25px;
+}
+.acceuil{
+  color:white;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 250px;
+}
+.Categories{
+  color:white;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25px;
+}
+
+.meilleurFilm{
+  text-align: start;
+  margin: auto;
+  width: 600px;
+  height: 100px;
+  border: 1px solid black;
+  display: flex;
+  margin-bottom: 50px;
+}
+.boutMeil{
+  margin-left: 34px;
+  background-color: red;
+  border-radius: 16px;
+  width: 75px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+}
+.titreMeil{
+  font-size: 20px;
+  margin-left: 12px;
+  margin-right: 8px;
+  width: 125px;
+  height: 25px;
+  margin-top: 10px;
+}
+.descMeil{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25px;
+}
+
+.mieuxnote, .action, .romance, .biography{
+  margin: auto;
+  width: 600px;
+  height: 210px;
+  margin-bottom: 50px;
+}
+.carousel-container{
+  display: grid;
+  grid-template-columns: 15px 140px 140px 140px 140px 30px;
+  grid-row: 255px;
+}
+.itemMeilFilm, .itemaction, .itemromance, .itembiography{
+  text-align: center;
+  margin-left: 15px;
+  border: 1px solid black;
+  width: 125px;
+  height: 225px;
+}
+.un{
+  grid-column: 2;
+  grid-row: 1;
+}
+.deux{
+  grid-column: 3;
+  grid-row: 1;
+}
+.trois{
+  grid-column: 4;
+  grid-row: 1;
+}
+.quatre{
+  grid-column: 5;
+  grid-row: 1;
+}
+.imgCarou{
+  margin: auto;
+  width: 100px;
+  margin-top: 0px;
+}
+.flecheGauche{
+  grid-column: 1;
+  grid-row: 1;
+}
+.flecheDroite{
+  grid-column: 6;
+  grid-row: 1;
+  margin-left: 22px;
+}
+.flecheGauche, .flecheDroite{
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  height: 22px;
+  width: 15px;
+}
+.divtitleCarou{
+  margin-top: 0px;
+  height: 60px;
+}
+.titleCarou{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.modale{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 300px 50px 200px 50px 150px;
+  position: absolute;
+  top:100px;
+  background-color: rgba(92, 92, 92, 1);
+  width: 630px;
+  height: 750px;
+  left: calc(50% - 315px);
+}
+.img_modale{
+  grid-column: 3/5;
+  grid-row: 1;
+  width: 200px;
+}
+.croix_modale{
+  grid-column: 6;
+  grid-row: 1;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+.titre_modale{
+  grid-column: 3/5;
+  grid-row: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+.time_modale{
+  grid-column: 1;
+  grid-row: 2;
+}
+.date_modale{
+  grid-column: 6;
+  grid-row: 2;
+}
+.desc_modale{
+  grid-column: 1/7;
+  grid-row: 3;
+  margin-top: 0px
+}
+.box_modale{
+  grid-column: 1;
+  grid-row: 4;
+}
+.score_modale{
+  grid-column: 2;
+  grid-row: 4;
+}
+.rated_modale{
+  grid-column: 3;
+  grid-row: 4;
+}
+.pays_modale{
+  grid-column: 4/6;
+  grid-row: 4;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rea_modale{
+  grid-column: 6;
+  grid-row: 4;
+}
+.acteurs_modale{
+  grid-column: 1/4;
+  grid-row: 5;
+}
+.genre_modale{
+  grid-column: 4/7;
+  grid-row: 5;
+}
+body{
+  text-align: center;
+}
+.noScroll{
+  overflow:hidden;
+}
+
+.cache{
+  display: none;
+}
+
+
+
+/* 
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    flex: 1 0 100%;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3rem;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 0;
+  }
+  
+  .carousel-next {
+    right: 0;
+  } */
