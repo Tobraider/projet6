@@ -67,7 +67,6 @@
 .carousel-container{
   display: grid;
   grid-template-columns: 15px 140px 140px 140px 140px 30px;
-  grid-row: 255px;
 }
 .itemMeilFilm, .itemaction, .itemromance, .itembiography{
   text-align: center;
@@ -203,39 +202,3 @@ body{
 .cache{
   display: none;
 }
-
-
-
-/* 
-.carousel {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .carousel-container {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .carousel-item {
-    flex: 1 0 100%;
-  }
-  
-  .carousel-prev,
-  .carousel-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 3rem;
-    z-index: 2;
-    cursor: pointer;
-  }
-  
-  .carousel-prev {
-    left: 0;
-  }
-  
-  .carousel-next {
-    right: 0;
-  } */
